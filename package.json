@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "grapesjs-float",
+  "name": "@propulse-lab/grapesjs-float",
   "version": "0.0.2",
   "description": "GrapesJS float plugin",
   "author": "Benjamin Grand",
@@ -20,7 +20,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "pnpm run build"
+    "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
     "@floating-ui/dom": "1.5.3",
@@ -33,13 +33,13 @@
     "@floating-ui/dom": ">= 1.5.3",
     "grapesjs": ">= 0.21.8"
   },
-  "homepage": "https://github.com/bgrand-ch/grapesjs-float",
+  "homepage": "https://github.com/propulse-lab/grapesjs-float",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bgrand-ch/grapesjs-float.git"
+    "url": "https://github.com/propulse-lab/grapesjs-float.git"
   },
   "bugs": {
-    "url": "https://github.com/bgrand-ch/grapesjs-float/issues"
+    "url": "https://github.com/propulse-lab/grapesjs-float/issues"
   },
   "keywords": [
     "gjs",
